@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/dark</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:imageButtonStyle">@drawable/border_text_text</item>
+
+        <item name="colorSecondary">@color/white</item>
+    </style>
+
+</resources>
