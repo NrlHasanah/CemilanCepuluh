@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val btnLogin: Button =findViewById(R.id.btnClick)
         btnLogin.setOnClickListener {
             Toast.makeText(this,"Succes!",Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, PageAfterLogin::class.java)
+            val intent = Intent(this, ScrollableList::class.java)
             startActivity(intent)
         }
 
